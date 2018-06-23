@@ -1,0 +1,22 @@
+I few things to take away from my interview with Change.org
+
+I was expecting Techincal Javascript based questions for this interview, I throw for a loop when asked design questions surrounding UI. 
+
+
+CH: Inheritence or Composibilty (Composition )
+
+My intital answer was I perfer Composibilty, the big problem with inheritance is you have to predict the future.
+ Inheritance encourages you to build this taxonomy of objects very early on in your project, and you are most likely going to make design mistakes doing that, because we cannot predict the future (even though it feels like we can), and getting out of these inheritiance taxonomies is a lot harder than getting out of them.
+
+I think it’s just better to use composition. It’s more flexible and powerful.
+
+I was asked how would I design an app with a deck or cards, with one card you can swipe to the left, meaning you don't want to look at the card and the card you swipe to the right means its something you like.
+
+I intitally said, I would design the a base html template import boostrap 4, add css animations along with SASS becasue of how versatile it is. 
+Also being able to use variables in Sass would make the animations go smoothly.
+
+Now that I think about the question, I could of done a number of things in order to make that card swipe animation, 
+I would need to complete the layout in Angular of the cards as a stack and get the data ready to place into the cards. Grab the id of the elements using (@ViewChild)
+Then, build the dynamic components - the grid and labels - and place them into the code by leveraging (addChild)
+I could use NativeScript’s Gestures module to handle the actual card swiping. The module returns args.direction of either 1 or 0, right or left. So, depending on the swipe direction, a series of animations occurs. First, the stamp label, which is normally set to opacity=0, appears briefly, showing red or green “thanks” or “no thanks” stamps. Then, the card itself animates, pushing off to the right or left and down using translate to make it move. It’s pretty straightforward, and I could tweak the animations to make the card sweep to the left or right or snap back, depending on how responsive I want the interface to behave. 
+
