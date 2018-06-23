@@ -1,6 +1,6 @@
 I few things to take away from my interview with Change.org
 
-I was expecting Techincal Javascript based questions for this interview, I throw for a loop when asked design questions surrounding UI. 
+I was expecting Techincal Javascript based questions for this interview, I thrown for a loop when asked design questions surrounding UI. 
 
 
 CH: Inheritence or Composibilty (Composition )
