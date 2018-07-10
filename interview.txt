@@ -1,6 +1,8 @@
 I few things to take away from my interview with Change.org
 
-I was expecting Techincal Javascript based questions for this interview, I was a bit unprepared when asked design questions surrounding UI. 
+I was expecting Techincal Javascript based questions for this interview, I was a bit unprepared when asked design questions surrounding UI.
+
+
 
 
 CH: Inheritence or Composibilty (Composition )
@@ -21,4 +23,5 @@ Then, build the dynamic components - the grid and labels - and place them into t
 I could use NativeScript’s Gestures module to handle the actual card swiping. The module returns args.direction of either 1 or 0, right or left. So, depending on the swipe direction, a series of animations occurs. First, the stamp label, which is normally set to opacity=0, appears briefly, showing red or green “thanks” or “no thanks” stamps. Then, the card itself animates, pushing off to the right or left and down using translate to make it move. It’s pretty straightforward, and I could tweak the animations to make the card sweep to the left or right or snap back, depending on how responsive I want the interface to behave. 
 
 Overall I feel, I could have done better at explaining myself. I stumbled on a few of the answers and I didn't get to the point with alot of them. 
-At this point I need to brush up on my UI design questions, because I needed to do better. 
+ 
+Just an update, I found out the were looking for a senior developer, lol that's definitely not me. I always stress prior to the interview I'm a Mid-level developer so they must not been listening. 
